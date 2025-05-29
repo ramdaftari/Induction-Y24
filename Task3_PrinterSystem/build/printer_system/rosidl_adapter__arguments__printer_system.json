@@ -1,0 +1,6 @@
+{
+  "package_name": "printer_system",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/printer_system:srv/PrintJob.srv"
+  ]
+}

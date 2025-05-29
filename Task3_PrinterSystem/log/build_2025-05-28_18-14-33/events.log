@@ -1,0 +1,454 @@
+[0.000000] (-) TimerEvent: {}
+[0.001278] (printer_system) JobQueued: {'identifier': 'printer_system', 'dependencies': OrderedDict()}
+[0.002346] (printer_system) JobStarted: {'identifier': 'printer_system'}
+[0.040715] (printer_system) JobProgress: {'identifier': 'printer_system', 'progress': 'cmake'}
+[0.042778] (printer_system) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/printer_system', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/printer_system'], 'cwd': '/root/ros2_ws/build/printer_system', 'env': OrderedDict([('HOSTNAME', 'ramdaftari-Lenovo-IdeaPad-S145-15API'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/root/ros2_ws/src/printer_system/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system'), ('PWD', '/root/ros2_ws/build/printer_system'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/root/ros2_ws/install/printer_system/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system')]), 'shell': False}
+[0.098414] (-) TimerEvent: {}
+[0.199218] (-) TimerEvent: {}
+[0.287315] (printer_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299492] (-) TimerEvent: {}
+[0.400504] (-) TimerEvent: {}
+[0.441780] (printer_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.466414] (printer_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500746] (-) TimerEvent: {}
+[0.601438] (-) TimerEvent: {}
+[0.702042] (-) TimerEvent: {}
+[0.796508] (printer_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802288] (-) TimerEvent: {}
+[0.840330] (printer_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.842229] (printer_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.844468] (printer_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.864492] (printer_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902548] (-) TimerEvent: {}
+[1.003352] (-) TimerEvent: {}
+[1.077549] (printer_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.103556] (-) TimerEvent: {}
+[1.123716] (printer_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.125424] (printer_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.128185] (printer_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.147744] (printer_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.203735] (-) TimerEvent: {}
+[1.304271] (-) TimerEvent: {}
+[1.404880] (-) TimerEvent: {}
+[1.505634] (-) TimerEvent: {}
+[1.606347] (-) TimerEvent: {}
+[1.707271] (-) TimerEvent: {}
+[1.730150] (printer_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.807497] (-) TimerEvent: {}
+[1.908299] (-) TimerEvent: {}
+[2.008913] (-) TimerEvent: {}
+[2.092008] (printer_system) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.104630] (printer_system) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.109188] (-) TimerEvent: {}
+[2.128954] (printer_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.185146] (printer_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.209397] (-) TimerEvent: {}
+[2.309957] (-) TimerEvent: {}
+[2.410528] (-) TimerEvent: {}
+[2.477977] (printer_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.510724] (-) TimerEvent: {}
+[2.611351] (-) TimerEvent: {}
+[2.711920] (-) TimerEvent: {}
+[2.720829] (printer_system) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.812125] (-) TimerEvent: {}
+[2.912636] (-) TimerEvent: {}
+[3.013139] (-) TimerEvent: {}
+[3.113687] (-) TimerEvent: {}
+[3.214270] (-) TimerEvent: {}
+[3.314944] (-) TimerEvent: {}
+[3.415641] (-) TimerEvent: {}
+[3.516551] (-) TimerEvent: {}
+[3.617483] (-) TimerEvent: {}
+[3.718291] (-) TimerEvent: {}
+[3.819088] (-) TimerEvent: {}
+[3.880753] (printer_system) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.919295] (-) TimerEvent: {}
+[4.019875] (-) TimerEvent: {}
+[4.120519] (-) TimerEvent: {}
+[4.221467] (-) TimerEvent: {}
+[4.324067] (-) TimerEvent: {}
+[4.424746] (-) TimerEvent: {}
+[4.525394] (-) TimerEvent: {}
+[4.625980] (-) TimerEvent: {}
+[4.642207] (printer_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.726188] (-) TimerEvent: {}
+[4.826722] (-) TimerEvent: {}
+[4.927236] (-) TimerEvent: {}
+[5.027725] (-) TimerEvent: {}
+[5.128218] (-) TimerEvent: {}
+[5.228697] (-) TimerEvent: {}
+[5.329165] (-) TimerEvent: {}
+[5.429696] (-) TimerEvent: {}
+[5.530282] (-) TimerEvent: {}
+[5.630973] (-) TimerEvent: {}
+[5.649531] (printer_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.731123] (-) TimerEvent: {}
+[5.781452] (printer_system) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.809277] (printer_system) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.831306] (-) TimerEvent: {}
+[5.894639] (printer_system) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.895608] (printer_system) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.896210] (printer_system) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.896713] (printer_system) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.931642] (-) TimerEvent: {}
+[6.034803] (-) TimerEvent: {}
+[6.053934] (printer_system) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.135067] (-) TimerEvent: {}
+[6.237486] (-) TimerEvent: {}
+[6.338190] (-) TimerEvent: {}
+[6.411028] (printer_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.438550] (-) TimerEvent: {}
+[6.539883] (-) TimerEvent: {}
+[6.641175] (-) TimerEvent: {}
+[6.705315] (printer_system) StdoutLine: {'line': b'-- Generating done\n'}
+[6.743756] (-) TimerEvent: {}
+[6.772304] (printer_system) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/printer_system\n'}
+[6.807804] (printer_system) CommandEnded: {'returncode': 0}
+[6.809143] (printer_system) JobProgress: {'identifier': 'printer_system', 'progress': 'build'}
+[6.809349] (printer_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/printer_system', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/printer_system', 'env': OrderedDict([('HOSTNAME', 'ramdaftari-Lenovo-IdeaPad-S145-15API'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/root/ros2_ws/src/printer_system/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system'), ('PWD', '/root/ros2_ws/build/printer_system'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/root/ros2_ws/install/printer_system/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system')]), 'shell': False}
+[6.843855] (-) TimerEvent: {}
+[6.944903] (-) TimerEvent: {}
+[7.049582] (-) TimerEvent: {}
+[7.063402] (printer_system) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.151536] (-) TimerEvent: {}
+[7.212693] (printer_system) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.251864] (-) TimerEvent: {}
+[7.275439] (printer_system) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_printer_system\n'}
+[7.352203] (-) TimerEvent: {}
+[7.454012] (-) TimerEvent: {}
+[7.555698] (-) TimerEvent: {}
+[7.658711] (-) TimerEvent: {}
+[7.761473] (-) TimerEvent: {}
+[7.862295] (-) TimerEvent: {}
+[7.963190] (-) TimerEvent: {}
+[8.064783] (-) TimerEvent: {}
+[8.166115] (-) TimerEvent: {}
+[8.272980] (-) TimerEvent: {}
+[8.376324] (-) TimerEvent: {}
+[8.477654] (-) TimerEvent: {}
+[8.578618] (-) TimerEvent: {}
+[8.679778] (-) TimerEvent: {}
+[8.780932] (-) TimerEvent: {}
+[8.882066] (-) TimerEvent: {}
+[8.983135] (-) TimerEvent: {}
+[9.084576] (-) TimerEvent: {}
+[9.109766] (printer_system) StdoutLine: {'line': b'running egg_info\n'}
+[9.111130] (printer_system) StdoutLine: {'line': b'creating printer_system.egg-info\n'}
+[9.112579] (printer_system) StdoutLine: {'line': b'writing printer_system.egg-info/PKG-INFO\n'}
+[9.114825] (printer_system) StdoutLine: {'line': b'writing dependency_links to printer_system.egg-info/dependency_links.txt\n'}
+[9.115943] (printer_system) StdoutLine: {'line': b'writing top-level names to printer_system.egg-info/top_level.txt\n'}
+[9.117647] (printer_system) StdoutLine: {'line': b"writing manifest file 'printer_system.egg-info/SOURCES.txt'\n"}
+[9.129790] (printer_system) StdoutLine: {'line': b"reading manifest file 'printer_system.egg-info/SOURCES.txt'\n"}
+[9.134478] (printer_system) StdoutLine: {'line': b"writing manifest file 'printer_system.egg-info/SOURCES.txt'\n"}
+[9.185774] (-) TimerEvent: {}
+[9.286720] (-) TimerEvent: {}
+[9.298151] (printer_system) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_printer_system_egg\n'}
+[9.387603] (-) TimerEvent: {}
+[9.488331] (-) TimerEvent: {}
+[9.589079] (-) TimerEvent: {}
+[9.689872] (-) TimerEvent: {}
+[9.791896] (-) TimerEvent: {}
+[9.895397] (-) TimerEvent: {}
+[9.997453] (-) TimerEvent: {}
+[10.060753] (printer_system) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_generator_c.dir/rosidl_generator_c/printer_system/srv/detail/print_job__functions.c.o\x1b[0m\n'}
+[10.097695] (-) TimerEvent: {}
+[10.198606] (-) TimerEvent: {}
+[10.299546] (-) TimerEvent: {}
+[10.400432] (-) TimerEvent: {}
+[10.408485] (printer_system) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libprinter_system__rosidl_generator_c.so\x1b[0m\n'}
+[10.500627] (-) TimerEvent: {}
+[10.536523] (printer_system) StdoutLine: {'line': b'[ 12%] Built target printer_system__cpp\n'}
+[10.578857] (printer_system) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.580032] (printer_system) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.600443] (printer_system) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.601096] (-) TimerEvent: {}
+[10.695972] (printer_system) StdoutLine: {'line': b'[ 22%] Built target printer_system__rosidl_generator_c\n'}
+[10.701521] (-) TimerEvent: {}
+[10.765539] (printer_system) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.792015] (printer_system) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.801776] (-) TimerEvent: {}
+[10.811560] (printer_system) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.902103] (-) TimerEvent: {}
+[11.006015] (-) TimerEvent: {}
+[11.109927] (-) TimerEvent: {}
+[11.214615] (-) TimerEvent: {}
+[11.315564] (-) TimerEvent: {}
+[11.416780] (-) TimerEvent: {}
+[11.518385] (-) TimerEvent: {}
+[11.621541] (-) TimerEvent: {}
+[11.724414] (-) TimerEvent: {}
+[11.825337] (-) TimerEvent: {}
+[11.929456] (-) TimerEvent: {}
+[12.031846] (-) TimerEvent: {}
+[12.132791] (-) TimerEvent: {}
+[12.235654] (-) TimerEvent: {}
+[12.336846] (-) TimerEvent: {}
+[12.443699] (-) TimerEvent: {}
+[12.544715] (-) TimerEvent: {}
+[12.645841] (-) TimerEvent: {}
+[12.672212] (printer_system) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/printer_system/srv/print_job__type_support.cpp.o\x1b[0m\n'}
+[12.746070] (-) TimerEvent: {}
+[12.817841] (printer_system) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/printer_system/srv/detail/print_job__type_support.cpp.o\x1b[0m\n'}
+[12.846470] (-) TimerEvent: {}
+[12.950050] (-) TimerEvent: {}
+[13.056737] (-) TimerEvent: {}
+[13.161662] (-) TimerEvent: {}
+[13.263114] (-) TimerEvent: {}
+[13.318320] (printer_system) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/printer_system/srv/detail/print_job__type_support.c.o\x1b[0m\n'}
+[13.363354] (-) TimerEvent: {}
+[13.369767] (printer_system) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/printer_system/srv/detail/print_job__type_support_c.cpp.o\x1b[0m\n'}
+[13.426015] (printer_system) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/printer_system/srv/print_job__type_support.cpp.o\x1b[0m\n'}
+[13.463632] (-) TimerEvent: {}
+[13.565669] (-) TimerEvent: {}
+[13.666820] (-) TimerEvent: {}
+[13.690060] (printer_system) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libprinter_system__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.751556] (printer_system) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libprinter_system__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.767835] (-) TimerEvent: {}
+[13.808406] (printer_system) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/printer_system/srv/detail/dds_fastrtps/print_job__type_support.cpp.o\x1b[0m\n'}
+[13.868121] (-) TimerEvent: {}
+[13.974747] (-) TimerEvent: {}
+[14.013151] (printer_system) StdoutLine: {'line': b'[ 58%] Built target printer_system__rosidl_typesupport_introspection_c\n'}
+[14.075051] (-) TimerEvent: {}
+[14.088312] (printer_system) StdoutLine: {'line': b'[ 58%] Built target printer_system__rosidl_typesupport_c\n'}
+[14.176497] (-) TimerEvent: {}
+[14.278892] (-) TimerEvent: {}
+[14.379691] (-) TimerEvent: {}
+[14.483586] (-) TimerEvent: {}
+[14.567212] (printer_system) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libprinter_system__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.583839] (-) TimerEvent: {}
+[14.687156] (-) TimerEvent: {}
+[14.788549] (-) TimerEvent: {}
+[14.806821] (printer_system) StdoutLine: {'line': b'[ 61%] Built target printer_system__rosidl_typesupport_cpp\n'}
+[14.888833] (-) TimerEvent: {}
+[14.989822] (-) TimerEvent: {}
+[15.090828] (-) TimerEvent: {}
+[15.191718] (-) TimerEvent: {}
+[15.292840] (-) TimerEvent: {}
+[15.395788] (-) TimerEvent: {}
+[15.496825] (-) TimerEvent: {}
+[15.598356] (-) TimerEvent: {}
+[15.699796] (-) TimerEvent: {}
+[15.801019] (-) TimerEvent: {}
+[15.804707] (printer_system) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libprinter_system__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.901480] (-) TimerEvent: {}
+[16.003643] (-) TimerEvent: {}
+[16.113909] (-) TimerEvent: {}
+[16.180797] (printer_system) StdoutLine: {'line': b'[ 64%] Built target printer_system__rosidl_typesupport_fastrtps_c\n'}
+[16.214417] (-) TimerEvent: {}
+[16.315846] (-) TimerEvent: {}
+[16.360804] (printer_system) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libprinter_system__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.415075] (printer_system) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libprinter_system__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.416264] (-) TimerEvent: {}
+[16.517161] (-) TimerEvent: {}
+[16.618374] (-) TimerEvent: {}
+[16.719551] (-) TimerEvent: {}
+[16.765004] (printer_system) StdoutLine: {'line': b'[ 70%] Built target printer_system__rosidl_typesupport_introspection_cpp\n'}
+[16.819750] (-) TimerEvent: {}
+[16.887483] (printer_system) StdoutLine: {'line': b'[ 70%] Built target printer_system__rosidl_typesupport_fastrtps_cpp\n'}
+[16.920049] (-) TimerEvent: {}
+[16.970845] (printer_system) StdoutLine: {'line': b'[ 70%] Built target printer_system\n'}
+[17.020307] (-) TimerEvent: {}
+[17.034911] (printer_system) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.120506] (-) TimerEvent: {}
+[17.221152] (-) TimerEvent: {}
+[17.321762] (-) TimerEvent: {}
+[17.422465] (-) TimerEvent: {}
+[17.523317] (-) TimerEvent: {}
+[17.624138] (-) TimerEvent: {}
+[17.724957] (-) TimerEvent: {}
+[17.825839] (-) TimerEvent: {}
+[17.926615] (-) TimerEvent: {}
+[18.027456] (-) TimerEvent: {}
+[18.128228] (-) TimerEvent: {}
+[18.229100] (-) TimerEvent: {}
+[18.329971] (-) TimerEvent: {}
+[18.430868] (-) TimerEvent: {}
+[18.452771] (printer_system) StdoutLine: {'line': b'[ 74%] Built target printer_system__py\n'}
+[18.531148] (-) TimerEvent: {}
+[18.544872] (printer_system) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_generator_py.dir/rosidl_generator_py/printer_system/srv/_print_job_s.c.o\x1b[0m\n'}
+[18.631477] (-) TimerEvent: {}
+[18.732365] (-) TimerEvent: {}
+[18.832970] (-) TimerEvent: {}
+[18.933606] (-) TimerEvent: {}
+[19.034178] (-) TimerEvent: {}
+[19.134880] (-) TimerEvent: {}
+[19.198334] (printer_system) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/printer_system/libprinter_system__rosidl_generator_py.so\x1b[0m\n'}
+[19.235108] (-) TimerEvent: {}
+[19.335834] (-) TimerEvent: {}
+[19.393977] (printer_system) StdoutLine: {'line': b'[ 80%] Built target printer_system__rosidl_generator_py\n'}
+[19.435996] (-) TimerEvent: {}
+[19.453547] (printer_system) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.465608] (printer_system) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.472912] (printer_system) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.536262] (-) TimerEvent: {}
+[19.637387] (-) TimerEvent: {}
+[19.738306] (-) TimerEvent: {}
+[19.787080] (printer_system) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.810107] (printer_system) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.838506] (-) TimerEvent: {}
+[19.939334] (-) TimerEvent: {}
+[19.958726] (printer_system) StdoutLine: {'line': b'[ 96%] Built target printer_system__rosidl_typesupport_c__pyext\n'}
+[20.014431] (printer_system) StdoutLine: {'line': b'[ 96%] Built target printer_system__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.039684] (-) TimerEvent: {}
+[20.140795] (-) TimerEvent: {}
+[20.235863] (printer_system) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.240974] (-) TimerEvent: {}
+[20.341646] (-) TimerEvent: {}
+[20.430904] (printer_system) StdoutLine: {'line': b'[100%] Built target printer_system__rosidl_typesupport_introspection_c__pyext\n'}
+[20.441872] (-) TimerEvent: {}
+[20.500790] (printer_system) CommandEnded: {'returncode': 0}
+[20.503940] (printer_system) JobProgress: {'identifier': 'printer_system', 'progress': 'install'}
+[20.528397] (printer_system) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/printer_system'], 'cwd': '/root/ros2_ws/build/printer_system', 'env': OrderedDict([('HOSTNAME', 'ramdaftari-Lenovo-IdeaPad-S145-15API'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/root/ros2_ws/src/printer_system/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system'), ('PWD', '/root/ros2_ws/build/printer_system'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/root/ros2_ws/install/printer_system/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/printer_system')]), 'shell': False}
+[20.542086] (-) TimerEvent: {}
+[20.552798] (printer_system) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.553810] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/rosidl_interfaces/printer_system\n'}
+[20.554566] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.555102] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg\n'}
+[20.555874] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.556333] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.556735] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.557021] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__functions.c\n'}
+[20.557581] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.h\n'}
+[20.558023] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__functions.h\n'}
+[20.558331] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__struct.h\n'}
+[20.558538] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/print_job.h\n'}
+[20.558814] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/library_path.sh\n'}
+[20.559020] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/library_path.dsv\n'}
+[20.559713] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_c.so\n'}
+[20.560496] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_c.so" to ""\n'}
+[20.560831] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.561096] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg\n'}
+[20.561454] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.561834] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.562188] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.562460] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_fastrtps_c.h\n'}
+[20.562801] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_c.so\n'}
+[20.563539] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.564239] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.564591] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg\n'}
+[20.565045] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.565378] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.565601] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.565809] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_introspection_c.h\n'}
+[20.566160] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.c\n'}
+[20.566442] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_c.so\n'}
+[20.567445] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.567697] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_c.so\n'}
+[20.568438] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_c.so" to ""\n'}
+[20.568762] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.569048] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg\n'}
+[20.569449] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.570072] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.570564] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/print_job.hpp\n'}
+[20.571105] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.571608] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__struct.hpp\n'}
+[20.571979] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__builder.hpp\n'}
+[20.572285] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.hpp\n'}
+[20.572723] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__traits.hpp\n'}
+[20.573939] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.574805] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg\n'}
+[20.575488] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.576061] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.576808] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.577614] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/dds_fastrtps\n'}
+[20.578300] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.578846] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.579583] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.580169] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system\n'}
+[20.580803] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv\n'}
+[20.581764] (printer_system) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail\n'}
+[20.582336] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.cpp\n'}
+[20.583027] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.583892] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_cpp.so\n'}
+[20.584485] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.585056] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_cpp.so\n'}
+[20.586024] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_cpp.so" to ""\n'}
+[20.586651] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/pythonpath.sh\n'}
+[20.587245] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/pythonpath.dsv\n'}
+[20.587826] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info\n'}
+[20.588402] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.589028] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.590006] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.590692] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.591252] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system\n'}
+[20.591775] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.592318] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/libprinter_system__rosidl_generator_py.so\n'}
+[20.592863] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.593481] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.594058] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.594613] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv\n'}
+[20.595148] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job.py\n'}
+[20.595804] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job_s.c\n'}
+[20.596330] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/__init__.py\n'}
+[20.596877] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_c.c\n'}
+[20.597635] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.598265] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/__init__.py\n'}
+[20.642339] (-) TimerEvent: {}
+[20.743157] (-) TimerEvent: {}
+[20.809419] (printer_system) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system'...\n"}
+[20.810070] (printer_system) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/__init__.py'...\n"}
+[20.810504] (printer_system) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv'...\n"}
+[20.810918] (printer_system) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/__init__.py'...\n"}
+[20.811323] (printer_system) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job.py'...\n"}
+[20.837357] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.838726] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.839595] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.840794] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.841460] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.842611] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.843118] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_py.so\n'}
+[20.843495] (-) TimerEvent: {}
+[20.844058] (printer_system) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_py.so" to ""\n'}
+[20.844875] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob.idl\n'}
+[20.845440] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob.srv\n'}
+[20.846014] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob_Request.msg\n'}
+[20.846807] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob_Response.msg\n'}
+[20.847437] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system\n'}
+[20.848178] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/printer_node.py\n'}
+[20.848592] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/__init__.py\n'}
+[20.848990] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/client_node.py\n'}
+[20.849565] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/printer_system/printer_node.py\n'}
+[20.850045] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/lib/printer_system/client_node.py\n'}
+[20.850515] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/package_run_dependencies/printer_system\n'}
+[20.851029] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/parent_prefix_path/printer_system\n'}
+[20.851503] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/ament_prefix_path.sh\n'}
+[20.852195] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/ament_prefix_path.dsv\n'}
+[20.852946] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/path.sh\n'}
+[20.853951] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/path.dsv\n'}
+[20.854732] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.bash\n'}
+[20.855475] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.sh\n'}
+[20.855943] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.zsh\n'}
+[20.856400] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.dsv\n'}
+[20.857059] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/package.dsv\n'}
+[20.857781] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/packages/printer_system\n'}
+[20.858416] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cExport.cmake\n'}
+[20.858925] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.859430] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.859958] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.860435] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.860928] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.861498] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cExport.cmake\n'}
+[20.862017] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.862433] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cppExport.cmake\n'}
+[20.862951] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.863540] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.864263] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.864959] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.865554] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cppExport.cmake\n'}
+[20.866064] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.866563] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_pyExport.cmake\n'}
+[20.867058] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.867556] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake-extras.cmake\n'}
+[20.868032] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.868543] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.869425] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.870432] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.871106] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.872101] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.872943] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_systemConfig.cmake\n'}
+[20.873517] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_systemConfig-version.cmake\n'}
+[20.874219] (printer_system) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/printer_system/share/printer_system/package.xml\n'}
+[20.878378] (printer_system) CommandEnded: {'returncode': 0}
+[20.944142] (-) TimerEvent: {}
+[20.950291] (printer_system) JobEnded: {'identifier': 'printer_system', 'rc': 0}
+[20.952747] (-) EventReactorShutdown: {}

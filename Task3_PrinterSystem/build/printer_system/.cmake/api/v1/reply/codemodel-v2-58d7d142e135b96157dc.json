@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f0576fe88a729edbf5af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "printer_system__py",
+					"jsonFile" : "directory-printer_system__py-e7444d4762961a8882e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/build/printer_system/printer_system__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "printer_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_printer_system_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_printer_system_egg-09bf195ec33b9a5d845d.json",
+					"name" : "ament_cmake_python_build_printer_system_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_printer_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_printer_system-9c234a1beec1a3b00909.json",
+					"name" : "ament_cmake_python_copy_printer_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system-c63e2f5c0603b97c45a9.json",
+					"name" : "printer_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__cpp-5e8d1f72ddb40c35274f.json",
+					"name" : "printer_system__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "printer_system__py::@e27fec97403194948e81",
+					"jsonFile" : "target-printer_system__py-6f2de82b3235a52a32ae.json",
+					"name" : "printer_system__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_generator_c-c89b0c6fadcbc7bd27c6.json",
+					"name" : "printer_system__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_generator_py-7b1d551c77560e58b7d0.json",
+					"name" : "printer_system__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_c-489b538e3966cbcc7b6d.json",
+					"name" : "printer_system__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_c__pyext-5fa5f17de9196b3fbd09.json",
+					"name" : "printer_system__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_cpp-7f39d751f1ea3007aeb1.json",
+					"name" : "printer_system__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_fastrtps_c-a222adc04f0ec1df3a7d.json",
+					"name" : "printer_system__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_fastrtps_c__pyext-d5bad04a7c327f767b5e.json",
+					"name" : "printer_system__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_fastrtps_cpp-60136087434b6ff78c92.json",
+					"name" : "printer_system__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_introspection_c-1a57fa253ce424928b94.json",
+					"name" : "printer_system__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_introspection_c__pyext-fc3b5b245dcdb378d8a0.json",
+					"name" : "printer_system__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system__rosidl_typesupport_introspection_cpp-1f8002107c53203a176d.json",
+					"name" : "printer_system__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_system_uninstall-9dcaadd821eecdd12116.json",
+					"name" : "printer_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bb384b446fca2ac22b2a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/printer_system",
+		"source" : "/root/ros2_ws/src/printer_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

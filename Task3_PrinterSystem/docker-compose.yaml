@@ -1,0 +1,95 @@
+version: '3.8'
+
+services:
+  ros2-base:
+    image: osrf/ros:humble-desktop
+    container_name: ros2_printer_base
+    networks:
+      - ros2_network
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - ./:/root/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    working_dir: /root/ros2_ws
+    command: >
+      bash -c "
+        source /opt/ros/humble/setup.bash &&
+        if [ ! -f install/setup.bash ]; then
+          colcon build --packages-select printer_system
+        fi &&
+        source install/setup.bash &&
+        tail -f /dev/null
+      "
+
+  printer-service:
+    image: osrf/ros:humble-desktop
+    container_name: printer_service_node
+    depends_on:
+      - ros2-base
+    networks:
+      - ros2_network
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - ./:/root/ros2_ws
+    working_dir: /root/ros2_ws
+    command: >
+      bash -c "
+        source /opt/ros/humble/setup.bash &&
+        source install/setup.bash &&
+        ros2 run printer_system printer_node
+      "
+    restart: unless-stopped
+
+  printer-client:
+    image: osrf/ros:humble-desktop
+    container_name: printer_client_node
+    depends_on:
+      - printer-service
+    networks:
+      - ros2_network
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - ./:/root/ros2_ws
+    working_dir: /root/ros2_ws
+    command: >
+      bash -c "
+        source /opt/ros/humble/setup.bash &&
+        source install/setup.bash &&
+        sleep 5 &&
+        ros2 run printer_system client_node
+      "
+    restart: "no"
+    profiles:
+      - testing
+
+  ros2-tools:
+    image: osrf/ros:humble-desktop
+    container_name: ros2_tools
+    depends_on:
+      - ros2-base
+    networks:
+      - ros2_network
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - ./:/root/ros2_ws
+    working_dir: /root/ros2_ws
+    command: >
+      bash -c "
+        source /opt/ros/humble/setup.bash &&
+        source install/setup.bash &&
+        tail -f /dev/null
+      "
+    stdin_open: true
+    tty: true
+
+networks:
+  ros2_network:
+    driver: bridge

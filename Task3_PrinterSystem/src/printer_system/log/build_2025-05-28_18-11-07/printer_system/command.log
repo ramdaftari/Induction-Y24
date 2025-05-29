@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/src/printer_system/build/printer_system': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/ros2_ws/install/printer_system /usr/bin/cmake /root/ros2_ws/src/printer_system -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/printer_system/install/printer_system
+Invoked command in '/root/ros2_ws/src/printer_system/build/printer_system' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/ros2_ws/install/printer_system /usr/bin/cmake /root/ros2_ws/src/printer_system -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/printer_system/install/printer_system

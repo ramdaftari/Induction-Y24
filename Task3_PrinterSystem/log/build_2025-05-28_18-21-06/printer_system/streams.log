@@ -1,0 +1,239 @@
+[0.102s] Invoking command in '/root/ros2_ws/build/printer_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/printer_system -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/printer_system
+[0.841s] -- The C compiler identification is GNU 11.4.0
+[1.486s] -- The CXX compiler identification is GNU 11.4.0
+[1.581s] -- Detecting C compiler ABI info
+[2.274s] -- Detecting C compiler ABI info - done
+[2.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.382s] -- Detecting C compile features
+[2.387s] -- Detecting C compile features - done
+[2.429s] -- Detecting CXX compiler ABI info
+[3.148s] -- Detecting CXX compiler ABI info - done
+[3.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.247s] -- Detecting CXX compile features
+[3.252s] -- Detecting CXX compile features - done
+[3.286s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.656s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.624s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[5.640s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.745s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.621s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[8.999s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.306s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.317s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.452s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.453s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.453s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.454s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.601s] -- Found PythonExtra: .so  
+[12.118s] -- Configuring done
+[12.569s] -- Generating done
+[12.670s] -- Build files have been written to: /root/ros2_ws/build/printer_system
+[12.703s] Invoked command in '/root/ros2_ws/build/printer_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/printer_system -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/printer_system
+[12.720s] Invoking command in '/root/ros2_ws/build/printer_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/printer_system -- -j8 -l8
+[13.017s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.041s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.510s] [  6%] Built target printer_system__cpp
+[15.781s] [  6%] Built target ament_cmake_python_copy_printer_system
+[15.869s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.330s] [ 12%] [32mBuilding C object CMakeFiles/printer_system__rosidl_generator_c.dir/rosidl_generator_c/printer_system/srv/detail/print_job__functions.c.o[0m
+[16.964s] [ 16%] [32m[1mLinking C shared library libprinter_system__rosidl_generator_c.so[0m
+[17.336s] [ 16%] Built target printer_system__rosidl_generator_c
+[17.414s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.442s] [ 22%] [32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/printer_system/srv/detail/print_job__type_support.cpp.o[0m
+[20.048s] [ 25%] [32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/printer_system/srv/detail/dds_fastrtps/print_job__type_support.cpp.o[0m
+[20.501s] running egg_info
+[20.509s] creating printer_system.egg-info
+[20.511s] writing printer_system.egg-info/PKG-INFO
+[20.516s] writing dependency_links to printer_system.egg-info/dependency_links.txt
+[20.519s] writing top-level names to printer_system.egg-info/top_level.txt
+[20.521s] writing manifest file 'printer_system.egg-info/SOURCES.txt'
+[20.548s] reading manifest file 'printer_system.egg-info/SOURCES.txt'
+[20.555s] writing manifest file 'printer_system.egg-info/SOURCES.txt'
+[20.830s] [ 25%] Built target ament_cmake_python_build_printer_system_egg
+[20.946s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.958s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.942s] [ 35%] [32m[1mLinking CXX shared library libprinter_system__rosidl_typesupport_introspection_cpp.so[0m
+[23.779s] [ 35%] Built target printer_system__rosidl_typesupport_introspection_cpp
+[23.898s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.930s] [ 41%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.081s] [ 45%] [32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/printer_system/srv/print_job__type_support.cpp.o[0m
+[24.511s] [ 48%] [32m[1mLinking CXX shared library libprinter_system__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.579s] [ 51%] [32m[1mLinking CXX shared library libprinter_system__rosidl_typesupport_c.so[0m
+[24.865s] [ 54%] [32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/printer_system/srv/detail/print_job__type_support.c.o[0m
+[25.158s] [ 54%] Built target printer_system__rosidl_typesupport_c
+[25.223s] [ 58%] [32m[1mLinking C shared library libprinter_system__rosidl_typesupport_introspection_c.so[0m
+[25.267s] [ 58%] Built target printer_system__rosidl_typesupport_fastrtps_cpp
+[25.592s] [ 58%] Built target printer_system__rosidl_typesupport_introspection_c
+[26.736s] [ 61%] [32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/printer_system/srv/detail/print_job__type_support_c.cpp.o[0m
+[27.247s] [ 64%] [32mBuilding CXX object CMakeFiles/printer_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/printer_system/srv/print_job__type_support.cpp.o[0m
+[29.021s] [ 67%] [32m[1mLinking CXX shared library libprinter_system__rosidl_typesupport_fastrtps_c.so[0m
+[29.788s] [ 67%] Built target printer_system__rosidl_typesupport_fastrtps_c
+[29.887s] [ 70%] [32m[1mLinking CXX shared library libprinter_system__rosidl_typesupport_cpp.so[0m
+[30.186s] [ 70%] Built target printer_system__rosidl_typesupport_cpp
+[30.370s] [ 70%] Built target printer_system
+[30.506s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.280s] [ 74%] Built target printer_system__py
+[35.500s] [ 77%] [32mBuilding C object CMakeFiles/printer_system__rosidl_generator_py.dir/rosidl_generator_py/printer_system/srv/_print_job_s.c.o[0m
+[37.066s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/printer_system/libprinter_system__rosidl_generator_py.so[0m
+[37.639s] [ 80%] Built target printer_system__rosidl_generator_py
+[37.907s] [ 83%] [32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.909s] [ 87%] [32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.914s] [ 90%] [32mBuilding C object CMakeFiles/printer_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/printer_system/_printer_system_s.ep.rosidl_typesupport_c.c.o[0m
+[39.165s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.348s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.373s] [100%] [32m[1mLinking C shared library rosidl_generator_py/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.571s] [100%] Built target printer_system__rosidl_typesupport_c__pyext
+[39.751s] [100%] Built target printer_system__rosidl_typesupport_fastrtps_c__pyext
+[39.794s] [100%] Built target printer_system__rosidl_typesupport_introspection_c__pyext
+[39.923s] Invoked command in '/root/ros2_ws/build/printer_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/printer_system -- -j8 -l8
+[40.032s] Invoking command in '/root/ros2_ws/build/printer_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/printer_system
+[40.114s] -- Install configuration: ""
+[40.116s] -- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/rosidl_interfaces/printer_system
+[40.118s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.120s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg
+[40.121s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_generator_c__visibility_control.h
+[40.123s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.124s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.125s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__functions.c
+[40.126s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.h
+[40.129s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__functions.h
+[40.129s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__struct.h
+[40.130s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/print_job.h
+[40.133s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/library_path.sh
+[40.135s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/library_path.dsv
+[40.137s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_c.so
+[40.142s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_c.so" to ""
+[40.143s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.144s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg
+[40.145s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.146s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.147s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.148s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_fastrtps_c.h
+[40.149s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_c.so
+[40.151s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_c.so" to ""
+[40.154s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.155s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg
+[40.156s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.157s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.158s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.158s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_introspection_c.h
+[40.159s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.c
+[40.160s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_c.so
+[40.164s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_c.so" to ""
+[40.165s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_c.so
+[40.168s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_c.so" to ""
+[40.172s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.173s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg
+[40.174s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_generator_cpp__visibility_control.hpp
+[40.174s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.175s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/print_job.hpp
+[40.176s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.177s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__struct.hpp
+[40.178s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__builder.hpp
+[40.180s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.hpp
+[40.182s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__traits.hpp
+[40.183s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.184s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg
+[40.185s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.187s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.188s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.189s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/dds_fastrtps
+[40.190s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_fastrtps_cpp.hpp
+[40.190s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_cpp.so
+[40.195s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_fastrtps_cpp.so" to ""
+[40.196s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system
+[40.198s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv
+[40.199s] -- Up-to-date: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail
+[40.200s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__type_support.cpp
+[40.202s] -- Installing: /root/ros2_ws/install/printer_system/include/printer_system/printer_system/srv/detail/print_job__rosidl_typesupport_introspection_cpp.hpp
+[40.203s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_cpp.so
+[40.204s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_introspection_cpp.so" to ""
+[40.205s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_cpp.so
+[40.206s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_typesupport_cpp.so" to ""
+[40.208s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/pythonpath.sh
+[40.210s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/pythonpath.dsv
+[40.212s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info
+[40.213s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/top_level.txt
+[40.214s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/PKG-INFO
+[40.216s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/SOURCES.txt
+[40.217s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system-0.0.0-py3.10.egg-info/dependency_links.txt
+[40.219s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system
+[40.220s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.221s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/libprinter_system__rosidl_generator_py.so
+[40.222s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_introspection_c.c
+[40.224s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.226s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.228s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv
+[40.229s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job.py
+[40.230s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job_s.c
+[40.231s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/__init__.py
+[40.232s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_c.c
+[40.233s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/_printer_system_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.234s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/__init__.py
+[40.588s] Listing '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system'...
+[40.589s] Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/__init__.py'...
+[40.591s] Listing '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv'...
+[40.592s] Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/__init__.py'...
+[40.593s] Compiling '/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/srv/_print_job.py'...
+[40.620s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.622s] -- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.625s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.627s] -- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.629s] -- Installing: /root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.631s] -- Set runtime path of "/root/ros2_ws/install/printer_system/local/lib/python3.10/dist-packages/printer_system/printer_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.633s] -- Installing: /root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_py.so
+[40.634s] -- Set runtime path of "/root/ros2_ws/install/printer_system/lib/libprinter_system__rosidl_generator_py.so" to ""
+[40.636s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob.idl
+[40.638s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob.srv
+[40.639s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob_Request.msg
+[40.640s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/srv/PrintJob_Response.msg
+[40.642s] -- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system
+[40.643s] -- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/printer_node.py
+[40.644s] -- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/__init__.py
+[40.646s] -- Installing: /root/ros2_ws/install/printer_system/lib/python3.10/site-packages/printer_system/client_node.py
+[40.648s] -- Installing: /root/ros2_ws/install/printer_system/lib/printer_system/printer_node.py
+[40.649s] -- Installing: /root/ros2_ws/install/printer_system/lib/printer_system/client_node.py
+[40.650s] -- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/package_run_dependencies/printer_system
+[40.651s] -- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/parent_prefix_path/printer_system
+[40.652s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/ament_prefix_path.sh
+[40.653s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/ament_prefix_path.dsv
+[40.655s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/path.sh
+[40.656s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/environment/path.dsv
+[40.658s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.bash
+[40.660s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.sh
+[40.662s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.zsh
+[40.664s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/local_setup.dsv
+[40.665s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/package.dsv
+[40.666s] -- Installing: /root/ros2_ws/install/printer_system/share/ament_index/resource_index/packages/printer_system
+[40.668s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cExport.cmake
+[40.670s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cExport-noconfig.cmake
+[40.671s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cExport.cmake
+[40.672s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.675s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cExport.cmake
+[40.676s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.678s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cExport.cmake
+[40.680s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cExport-noconfig.cmake
+[40.681s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_cppExport.cmake
+[40.682s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.684s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.686s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cppExport.cmake
+[40.687s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.689s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cppExport.cmake
+[40.690s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_system__rosidl_typesupport_cppExport-noconfig.cmake
+[40.692s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_pyExport.cmake
+[40.694s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/export_printer_system__rosidl_generator_pyExport-noconfig.cmake
+[40.696s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake-extras.cmake
+[40.697s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.699s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.700s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_libraries-extras.cmake
+[40.702s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/ament_cmake_export_targets-extras.cmake
+[40.704s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.705s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.707s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_systemConfig.cmake
+[40.709s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/cmake/printer_systemConfig-version.cmake
+[40.710s] -- Installing: /root/ros2_ws/install/printer_system/share/printer_system/package.xml
+[40.727s] Invoked command in '/root/ros2_ws/build/printer_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/printer_system
